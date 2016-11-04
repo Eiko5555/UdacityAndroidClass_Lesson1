@@ -11,5 +11,7 @@ public class SingleScreenApp extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.single_screen_app);
+        //***for one more xml file use below and comment out above.
+        //setContenView(R.layout.single_screen_2);
     }
 }
